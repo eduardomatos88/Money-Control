@@ -9,6 +9,7 @@ Esta é uma aplicação simples, feita para controle financeiro, onde você pode
 * MirageJS
 * Polished
 * React-Modal
+* Intl
 
 ## Aprendizado
 
@@ -25,3 +26,6 @@ Algumas manipulações com as cores, como transparência, escurecer ou clarear, 
 Uma biblioteca super leve para criar modais para a aplicação. Gostei bastante da simplicidade e a preocupação com a acessibilidade da biblioteca.
 
 Trabalhar com funções dentro da biblioteca é extremamente útil e de fácil manipulação de estilos dependendo de certas condições.
+
+### Intl
+Biblioteca Javascript para lidar com formatação de variáveis para vários países diferentes, muito simples de se utilizar e com várias opções como formatação de datas e formatações monetárias, achei incrível ter uma biblioteca nativa para isto.
