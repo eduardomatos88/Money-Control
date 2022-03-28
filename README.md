@@ -1,7 +1,7 @@
 <h1 align="center"> Money-Control </h1>
 
 ## Sobre
-Esta é uma aplicação simples, feita para controle financeiro, onde você pode cadastrar entradas e saídas de transações.
+Esta é uma aplicação simples para estudo do ReactJS, feita para controle financeiro, onde você pode cadastrar entradas e saídas de transações.
 
 ## Ferramentas utilizadas
 * Axios
