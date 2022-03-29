@@ -10,6 +10,8 @@ Esta é uma aplicação simples para estudo do ReactJS, feita para controle fina
 * Polished
 * React-Modal
 * Intl
+* React Context
+* React Hooks
 
 ## Aprendizado
 
@@ -29,3 +31,9 @@ Trabalhar com funções dentro da biblioteca é extremamente útil e de fácil m
 
 ### Intl
 Biblioteca Javascript para lidar com formatação de variáveis para vários países diferentes, muito simples de se utilizar e com várias opções como formatação de datas e formatações monetárias, achei incrível ter uma biblioteca nativa para isto.
+
+### React Context
+Uma ferramenta muito prática e simples de se utilizar para compartilhar dados entre componentes sem precisar ficar repassando variáveis para cada filho do componente.
+
+### React Hooks
+Simplifica imports e unifica funcionalidades em um só arquivo, ajudando em um código mais limpo e simples de fazer manutenção.
