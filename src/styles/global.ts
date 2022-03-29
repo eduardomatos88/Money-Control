@@ -3,15 +3,15 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 
   :root {
-    --background: #f0f2f5;
-    --red: #E52E4D;
-    --green: #33CC95;
-    --blue: #5429cc;
-    --blue-light: #6933FF;
-    --text-title: #363F5F;
-    --text-body: #969CB3;
-    --input-background: #e7e9ee;
-    --shape: #FFFFFF;
+    --background: ${props => props.theme.colors.background};
+    --primary:  ${props => props.theme.colors.primary};
+    --secondary:  ${props => props.theme.colors.secondary};
+    --withdraw:  ${props => props.theme.colors.withdraw};
+    --deposit:  ${props => props.theme.colors.deposit};
+    --text-title:  ${props => props.theme.colors.textTitle};
+    --text-body:  ${props => props.theme.colors.textBody};
+    --input-background:  ${props => props.theme.colors.inputBackground};
+    --shape:  ${props => props.theme.colors.shape};
   }
 
   * {

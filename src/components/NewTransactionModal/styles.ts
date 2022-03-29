@@ -33,8 +33,8 @@ export const Container = styled.form`
     width: 100%;
     padding: 0 1.5rem;
     height: 4rem;
-    background-color: var(--green);
-    color: #ffffff;
+    background-color: var(--deposit);
+    color: var(--shape);
     border-radius: 0.25rem;
     border: 0;
     font-size: 1rem;
