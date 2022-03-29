@@ -14,8 +14,8 @@ export const Container = styled.form`
     height: 4rem;
     border-radius: 0.25rem;
 
-    border: 1px solid #d7d7d7;
-    background-color: #e7e9ee;
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
 
     font-weight: 400;
     font-size: 1rem;
@@ -68,7 +68,7 @@ const colors = {
 
 export const RadioBox = styled.button<IRadioBoxProps>`
   height: 4rem;
-  border: 1px solid #d7d7d7;
+  border: 1px solid  var(--input-border);
   border-radius: 0.25rem;
 
   background-color: ${({ isActive, activeColor }) =>
@@ -84,7 +84,7 @@ export const RadioBox = styled.button<IRadioBoxProps>`
   transition: border-color 0.5s;
 
   &:hover {
-    border-color: ${darken(0.1, '#d7d7d7')};
+    border-color: ${({theme}) => darken(0.1, theme.colors.inputBorder)};
   }
 
   img {

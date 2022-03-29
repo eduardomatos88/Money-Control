@@ -12,6 +12,7 @@ declare module 'styled-components' {
       textTitle: string
       textBody: string
       inputBackground: string
+      inputBorder: string
       shape: string
     }
   }

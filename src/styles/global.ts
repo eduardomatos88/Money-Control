@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     --text-title:  ${props => props.theme.colors.textTitle};
     --text-body:  ${props => props.theme.colors.textBody};
     --input-background:  ${props => props.theme.colors.inputBackground};
+    --input-border:  ${props => props.theme.colors.inputBorder};
     --shape:  ${props => props.theme.colors.shape};
   }
 

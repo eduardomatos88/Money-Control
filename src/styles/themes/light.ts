@@ -9,6 +9,7 @@ const theme = {
     textTitle: '#363F5F',
     textBody: '#969CB3',
     inputBackground: '#e7e9ee',
+    inputBorder: '#d7d7d7',
     shape: '#FFFFFF',
   }
 }
